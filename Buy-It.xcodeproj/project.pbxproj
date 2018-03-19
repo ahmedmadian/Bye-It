@@ -12,6 +12,7 @@
 		84657264205F3F2F000ADE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84657262205F3F2F000ADE22 /* Main.storyboard */; };
 		84657266205F3F2F000ADE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84657265205F3F2F000ADE22 /* Assets.xcassets */; };
 		84657269205F3F2F000ADE22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84657267205F3F2F000ADE22 /* LaunchScreen.storyboard */; };
+		84657274205F4314000ADE22 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84657273205F4314000ADE22 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84657265205F3F2F000ADE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84657268205F3F2F000ADE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8465726A205F3F2F000ADE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84657273205F4314000ADE22 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		8465725D205F3F2F000ADE22 /* Buy-It */ = {
 			isa = PBXGroup;
 			children = (
+				84657270205F42C9000ADE22 /* View */,
 				8465725E205F3F2F000ADE22 /* AppDelegate.swift */,
 				84657260205F3F2F000ADE22 /* ViewController.swift */,
 				84657262205F3F2F000ADE22 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				8465726A205F3F2F000ADE22 /* Info.plist */,
 			);
 			path = "Buy-It";
+			sourceTree = "<group>";
+		};
+		84657270205F42C9000ADE22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84657273205F4314000ADE22 /* CustomTextField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				84657261205F3F2F000ADE22 /* ViewController.swift in Sources */,
 				8465725F205F3F2F000ADE22 /* AppDelegate.swift in Sources */,
+				84657274205F4314000ADE22 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
